@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import {
   FaFacebook,
@@ -51,7 +50,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
           <Link href="/" className="flex items-center gap-3">
-            <Image
+            <img
               src="/logo.png"
               alt="MudSlug Studio"
               width={50}
@@ -84,7 +83,7 @@ export default function Home() {
           backgroundImage: "url('/hero-bg.png')",
         }}
       >
-        <Image
+        <img
           src="/logo.png"
           alt="MudSlug Studio"
           width={220}
@@ -118,11 +117,9 @@ export default function Home() {
               className="bg-zinc-900 rounded-2xl overflow-hidden border border-zinc-800 hover:scale-105 transition duration-300"
             >
               <div className="bg-white p-6">
-                <Image
+                <img
                   src={game.image}
                   alt={game.title}
-                  width={600}
-                  height={400}
                   className="w-full h-64 object-contain"
                 />
               </div>
