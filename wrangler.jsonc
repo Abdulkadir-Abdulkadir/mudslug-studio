@@ -1,6 +1,7 @@
 {
   "name": "mudslug-studio",
   "compatibility_date": "2026-07-10",
+  "workers_dev": false,
   "assets": {
     "directory": "./out"
   }
